@@ -2,12 +2,12 @@ Source: roboy-ros-control
 Section: misc
 Priority: extra
 Maintainer: Simon Trendel <simon.trendel@tum.de>
-Build-Depends: debhelper (>= 9.0.0), ros-jade, libcmaes
+Build-Depends: debhelper (>= 9.0.0), ros-jade, libcmaes, libncurses5-dev
 Homepage: https://github.com/Roboy/roboy-ros-control
 Standards-Version: 3.9.7
 
 Package: roboy-ros-control
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade, libcmaes, gazebo7
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade, libcmaes, gazebo7, libncurses5-dev
 Description: packages for controlling roboy with myo_muscles via flexray
  
